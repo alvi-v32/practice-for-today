@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    /* text-align: center; */
+}
+.contents{
+    padding: 120px;
+}
+.title{
+    color: antiquewhite;
+    margin: 40px 80px;
+    font-weight: 700;
+    font-size:55px;
+}
+.heading{
+    background-image: url('../images/donation7.jpg');
+    margin-bottom: 35px;
+    text-align: center;
+    padding: 260px;
+    background-repeat: no-repeat;
+    background-position: bottom right , left;
+}
+.about-heading{
+    margin-top: 20px;
+    color: white;
+    margin: 40px 80px;
+    font-size: 18px;
+
+}
+.donetion{
+    margin-top: 30px;
+    background-color: rgb(255, 77, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+/* head done */
+
+.second-head{
+        /* padding: 30px; */
+        font-size: 42px;
+        text-align: center;
+}
+.second-title{
+    text-align: center;
+    margin-top: 5px;
+    padding: 0 130px;
+    font-size: 18px;
+    margin-bottom: 50px;
+} 
+
+/* button section */
+
+.button{
+    margin-top: 70px ;
+    background-color: #FFFFFF;
+    color:#817c7c;
+    border-color: #e2dfde;
+    font-weight: 500px;
+    font-size: 30px;
+    height:90px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+}
+.ammount-button{
+    text-align: center;
+}
+.donetion{
+    text-align: center;
+}
+
+#money-amount{
+    margin-left: 500px;
+    margin-top: 30px;
+    border: none;
+    font-weight: 500;
+    font-size: 17px;
+    color:#817c7c;
+}
+.donate-plane{
+    text-align: center;
+    margin-top: 140px;
+    font-size: 40px;
+}
+
+/* what we do */
+
+.wedo{
+    display: flex;
+    gap: 12px;
+}
+.discription{
+    color:#817c7c;
+}
+.do-what{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.about-help-a{
+    background: #d7a1d2;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06)
+}
+.about-help-b{
+    background: #b1a1d7;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06)
+}
+.about-help-c{
+    background: #a1d7ab;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06)
+}
+.livings{
+    padding: 50px;
+    margin-top: 100px;
+    margin-right: 700px;
+    font-size: larger;
+    
+    
+}
+.about-depend{
+    margin-top: 30px;
+    
+}
