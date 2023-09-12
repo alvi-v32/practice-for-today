@@ -1,7 +1,7 @@
 *{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    text-align: center; 
+    /* text-align: center;  */
 }
 .contents{
     padding:80px;
@@ -55,7 +55,12 @@
 } 
 
 /* button section */
-
+.ammount-button{
+    margin-left: 220px;
+    color: #817c7c;
+    display: inline-block;
+    
+}
 
 .button{
     margin-top: 70px ;
@@ -81,17 +86,19 @@
     width: 190px;
     font-weight: 600;
     font-size: 15px;
+    margin-left: 600px;
 }
 #money-amount{
-    margin-left: 20px;
+    margin-left: 520px;
     margin-top: 30px;
     border: none;
     font-weight: 500;
     font-size: 17px;
     color:#817c7c;
 }
+
 .donate-plane{
-    /* text-align: center; */
+    text-align: center;
     margin-top: 10px;
     font-size: 40px;
 }
@@ -143,24 +150,7 @@
     padding: 30px;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06)
 }
-.livings{
-    padding: 50px;
-    margin-top: 30px;
-    margin-right: 700px;
-    font-size: larger;
-}
-.livings> .depend, .about-depend{
-    text-align: left;
-    padding: 20px;
-    margin-left: 40px;
-}
-.about-depend{
-    /* margin-top: 10px;     */
-    color: #817c7c;
-}
-.livings> .depend{
-    font-size: 50px;
-}
+
 .contribute{
     background-color: rgb(255, 77, 0);
     color: rgb(255, 255, 255);
@@ -169,7 +159,117 @@
     padding: 10px;
     height: 60px;
     width: 190px;
-    margin-right: 250px;
+    margin-left: 100px;
     font-weight: 700;
     font-size: 15px;
+}
+.lives{
+    display: flex;
+
+}
+.live-title{
+    font-size: 46px;
+    margin-left: 100px;
+    margin-bottom: 18px;
+    
+}
+.live-article{
+    margin-left: 100px;
+    margin-right: 140px;
+    color:#817c7c;
+    font-size: 20px;
+}
+.image{
+    height: 400px;
+    width: 500px;
+    margin-right: 140px;
+}
+.survibe{
+    display: flex;
+    margin-top: 50px;
+}
+.second-image{
+    height: 400px;
+    width: 500px;
+    margin-left: 140px;
+    
+}
+.survibe-text{
+    margin-left: 60px;
+    margin-right: 70px;
+}
+.survibe-title{
+    font-size: 46px;
+    margin-bottom: 17px;
+}
+.survibe-artical{
+    margin-top: 20px;
+    color:#817c7c;
+    font-size: 20px;
+}
+.contribute-b{
+    background-color: rgb(255, 77, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    height: 60px;
+    width: 190px;
+    margin-left:700px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 30px;
+}
+/* top done */
+.about-me{
+    text-align: center;
+}
+.my-update{
+    font-size: 34px;
+    margin-top: 100px;
+
+}
+.about-my-update{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color:#817c7c;
+    font-size: 20px;
+}
+.
+.in-unit{
+    border-radius: 10px;
+    border-color: #817c7c;
+    display: inline-block;
+   background-color: red;
+}
+#email{
+    /* border: none; */
+    padding: 5px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+     
+}
+.sub{
+    background-color: orangered;
+    border: none;
+    padding: 10px;
+    width: 140px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 65000;
+}
+footer{
+    background-color: black;
+    text-align: center;
+}
+.humble{
+    margin-bottom: 20px;
+    color: orangered;
+    padding-top: 80px;
+}
+.do-it{
+    color: white;
+    padding-bottom: 70px;
 }
